@@ -1,0 +1,36 @@
+Boldの指摘
+
+全体
+・font-familyの指定
+・sectionやarticleでwidth100%をいれてたりいれてなかったりするが、今回はデザインも崩れないので消してしまってもいいかも
+
+header
+・アイコンをもうワンサイズ小さくする
+・contactボタンのborderとoutlineは使わないでよい
+・header分をmainでpaddingする
+・title-subはh2ではなくpで
+
+what we can do
+・text部にbox-sizingはいらない
+・Bolt Themeがh1だからwhat we can doのtitleはh2で
+
+OUR LATEST WORK
+・titleはh2で
+・nth-childの指定を１から３ずつのインクリメントにする
+・margin-bottomも全体に含めて最後の３つだけ打ち消すようにする
+・article-work-img-areaはdivではなくulタグ等で作ると意味合いが持ちやすい
+・画像をaタグで囲む div→aで囲む
+  ->ulで中にaを入れるか、divタグの直下にaタグを入れるかはおまかせ
+・テキストとボタンのエリアはmargin-top指定で良い
+・テキストはdivにpを入れているが、直接pタグ指定でよい
+
+
+OUR SKILLS
+・他と違うので、innerでpaddingを指定しよう
+・画像の並びはdivからulに変えると見やすい
+
+SNS
+・sns-innerでwidthを指定しているが、消そう
+
+footer
+・h3をpタグに変更
