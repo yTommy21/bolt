@@ -3,6 +3,7 @@ Boldの指摘
 全体
 ・font-familyの指定
 ・sectionやarticleでwidth100%をいれてたりいれてなかったりするが、今回はデザインも崩れないので消してしまってもいいかも
+・clearfixは一番上に
 
 header
 ・アイコンをもうワンサイズ小さくする
@@ -14,6 +15,7 @@ what we can do
 ・text部にbox-sizingはいらない
 ・Bolt Themeがh1だからwhat we can doのtitleはh2で
 
+
 OUR LATEST WORK
 ・titleはh2で
 ・nth-childの指定を１から３ずつのインクリメントにする
@@ -24,13 +26,52 @@ OUR LATEST WORK
 ・テキストとボタンのエリアはmargin-top指定で良い
 ・テキストはdivにpを入れているが、直接pタグ指定でよい
 
+・href属性つけておく
+・emailボタンにborderとoutlineはいらないのとhref属性をつけておく
+
 
 OUR SKILLS
 ・他と違うので、innerでpaddingを指定しよう
 ・画像の並びはdivからulに変えると見やすい
 
+
 SNS
 ・sns-innerでwidthを指定しているが、消そう
+・sns-btnをdivではなくaタグにつける（divは不要）
 
 footer
 ・h3をpタグに変更
+
+--------------------------------------------------
+２回目
+
+全体
+・clearfixは一番上に
+・見出し部分につけるRaleway用のクラスを作って割り当てる
+
+header
+・href属性をつけておく
+
+what we can do
+・areaのbottomに余白ができているので消す
+
+
+OUR LATEST WORK
+・href属性つけておく
+・emailボタンにborderとoutlineはいらないのとhref属性をつけておく
+
+
+OUR SKILLS
+・ourskills-innerのwidth指定が消えていなかったので消してください
+
+
+SNS
+・現在はアイコン部分しかクリックできないので、divタグを取り除いてaタグにクラスをわりあてよう
+
+
+footer
+・h3をpタグに変更
+
+
+レスポンシブ
+・ハンバーガーボタンはfirst-chidとかlast-child指定にしよう
