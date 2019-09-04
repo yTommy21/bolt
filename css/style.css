@@ -54,32 +54,26 @@ body {
 
 .hamburger {
   display: none;
-  position: relative;
   float: right;
-  width: 40px;
-  height: 30px;
   margin-right: 5px;
   background-color: #fff;
   padding: 10px;
   border: 1px solid #ddd;
   border-radius: 4px;
-  outline: none;
 }
 
 .hamburger-line {
-  position: absolute;
-  top: 24px;
-  left: 16px;
+  display: block;
   width: 30px;
   height: 3px;
+  margin-top: 6px;
   background-color: #ddd;
 }
 
 .hamburger-line:first-child {
-  top: 14px;
+  margin-top: 0;
 }
 .hamburger-line:last-child {
-  top: 34px;
 }
 
 
@@ -300,6 +294,10 @@ body {
   }
 
   /* section can do */
+  .section-cando-inner {
+    padding-bottom: 25px;
+  }
+
   .section-cando-img {
     float: none;
     display: inline-block;
@@ -345,14 +343,15 @@ body {
   .email-btn {
     display: inline-block;
     float: none;
-    margin: 40px 0 0 0;
+    margin-top: 40px;
+    margin-left: 0;
   }
 
 
   /* section our skills */
   .section-ourskills-skill {
     display: block;
-    margin-left: 0px;
+    margin-left: 0;
     margin-bottom: 88px;
   }
 
